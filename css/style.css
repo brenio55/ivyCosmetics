@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Gudea:ital,wght@0,400;0,700;1,400&family=Questrial&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/voga');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Questrial';
+    scroll-behavior: smooth;
+}
+
+html{
+    padding-top: 191px;
+    /*background-image: url('../img/background.jpg');**/
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+    background-size: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+.nameLogo{
+    color: black;
+    font-family: 'Voga';
+    margin-top:-2px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.header ul{
+    
+    padding-top: 13.2px;
+    text-align: center;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: -75px;
+}
+
+.header li{
+    --paddingLR: 60px;
+    display: inline;
+    padding-left: var(--paddingLR);
+    font-size: 22px;
+}
+
+
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	display: none;
+}
+
+::-webkit-scrollbar-track-piece  {
+	background-color: #3b3b3b;
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #666;
+	border-radius: 6px;
+}
+
+.header{
+    color: white;
+    box-shadow: 0px 3px 2px 1px rgba(0,0,0,0.1); /* (x, y, blur-radius, spread-radius, color) **/
+	height: 193px;
+	/*background-color: rgb(62, 124, 23, 0.95);**/
+    background-image: url('../img/background5.png');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position: 50% 95%;
+	width: 100%;
+	top: 0;
+    left: 0;
+    position: absolute;
+	transition: 0.3s all;
+
+    text-align: center;
+}
+
+.logo{
+    margin-top: 15px;
+    width: 80px;
+}
+
+.mainWidth{
+    
+    margin: 0 auto 0 auto;
+    width: 1000px;
+    background-color: rgb(232, 225, 217,0.96);
+    height: 900px;
+    padding-top: 45px;
+    padding-left: 45px;
+}
+
+.imageCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundImage{
+    width: 1000px;
+    margin-top: 2px;
+}
+
+.nav{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    height: 48px;
+}
+
+.stripDivision{
+    z-index: -1;
+    margin-top: -327px;
+    display: block;
+    position: absolute;
+    background-color: #D3DCCD;
+    height: 451px;
+    width: 100%;
+    left: 0;
+}
+
+.stripDivisionGreen{
+    z-index: -1;
+    margin-top: -400px;
+    display: block;
+    position: absolute;
+    background-color: rgb(157, 166, 121);
+    height: 73px;
+    width: 100%;
+    left: 0;
+}
+
+.stripDivisionPromo{
+    text-align: center;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    background-color: #D1BCCD;
+    font-size: 10px;
+    padding-top: 1.4em;
+    margin-top: 42px;
+    height: 70px;
+    width: 100%;
+    left: 0;
+}
+
+.autonomy{
+    font-family: 'Cookie';
+    font-weight: 400;
+    text-align: center;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+    margin-top: 44px;
+}
+
+.home{
+    margin-top: 65px;
+}
+
+.leftSideProd, .rightSideProd{
+    width: 450px;
+}
+
+.leftSideProd{
+    margin-left: 258px;
+    width: 227px;
+}
+
+.rightSideProd{
+    margin-right: 250px;
+    width: 550px;
+}
+
+.productIMG{
+    display: block;
+    width: 200px;
+    background: green;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.productBuyOneIMG{
+    display: block;
+    width: 169px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 31px;
+}
+
+.productTitle{
+    margin-top: 30px;
+}
+
+.productPrice{
+    font-size: 20px;
+}
+
+.productDesc{
+    font-size: 19px;
+}
+
+.mainProdFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainProduct{
+    background-color: rgb(236, 239, 241);
+    margin-bottom: 23px;
+    padding-bottom: 90px;
+}
+
+.prodComparisonh1{
+    text-align: center;
+    font-family: 'Cookie';
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.prodFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.productsTitle{
+    margin-top: 179px;
+    text-align: center;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 52px;
+}
+
+body{
+    margin: 0;
+}
+
+.footer{
+    margin-top: 90px;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-top: 7px;
+    /* background-color: rgba(228,228,228,0.5); */
+    background: rgb(166, 141, 121);
+    width: 100%;
+    height: 250px;
+    color: white;
+}
+
+table, th, td{
+    border: 1px solid black;
+    width: fit-content;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tableProdCompar{
+    width: 870px;
+}
+
+.aboutUsh1{
+    margin-top: 43px;
+    text-align: center;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 55px;
+}
+
+.stripDivisionPink{
+    z-index: -1;
+    margin-top: -327px;
+    display: block;
+    position: absolute;
+    background-color: rgb(235,227,207);
+    height: 472px;
+    width: 100%;
+    left: 0;
+    
+}
+
+.stripDivisionBrown{
+    z-index: -1;
+    margin-top: -400px;
+    display: block;
+    position: absolute;
+    height: 73px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(166, 141, 121);
+}
+
+.stripDivisionBrownContactUs{
+    z-index: -1;
+    margin-top: -116px;
+    display: block;
+    position: absolute;
+    height: 275px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(166, 141, 121);
+}
+
+.stripDivisionPromo.aboutUsPage{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: initial;
+    margin-top: 25px;
+}
+
+.aboutUs{
+    height: 813px;
+}
+
+.promo{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15px;
+}
+
+.contactUsTitle{
+    color: white;
+    margin-top: 13px;
+    text-align: center;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.contactUsSubtitle{
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 37px;
+    margin-bottom: 55px;
+}
+
+.contactUsFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.contactUsSquare{
+    /*--paddingLT: 50px;
+    padding-left: var(--paddingLT);**/
+    
+    padding-top: 50px;
+    height: 630px;
+    width: 1000px;
+    background-color: rgb(235, 227, 207);
+}
+
+.contactUsSquareWhite, .contactUsSquareWhiteInfo{
+    --paddingLT: 50px;
+    padding-left: var(--paddingLT);
+    padding-right: 50px;
+    padding-top: var(--paddingLT);
+    height: 250px;
+    width: 800px;
+    background-color: rgb(243, 244, 246);
+}
+
+.contactUsSquareWhiteInfo{
+    margin-top: 40px;
+    width: 680px;
+    padding-top: 35px;
+}
+
+.contactUsInformation{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contactUsFlexForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputName, .inputEmail, .inputSubject, .inputMessage{
+    background: initial;
+    border: none;
+    border-bottom: 1px solid rgb(158, 159, 161);
+}
+
+.inputName:focus, .inputEmail:focus, .inputSubject:focus, .inputMessage:focus{
+    outline: none;
+    background: initial;
+    border: none;
+    border-bottom: 1px solid rgb(77, 78, 80);
+}
+
+.inputName, .inputEmail{
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.inputSubject, .inputMessage{
+    width: 700px;
+}
+
+.inputSubject{
+    margin-bottom: 20px;
+}
+
+.buttonSubmit{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 13px 5px 13px;
+    margin-bottom: 0px;
+    background: initial;
+    border: 1px solid rgb(158, 159, 161);;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.contactUsP{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tableContactInfo{
+    border: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 600px;
+}
+
+.footerFlex{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerL, .footerR{
+    margin-top: 25px;
+}
+
+.footerL{
+    margin-left: 150px;
+    text-align: center;
+}
+
+.footerR{
+    margin-right: 150px;
+}
+
+.pagesFooter li{
+    color: black;
+    list-style: none;
+    text-align: center;
+    padding-top: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.socialMedia li{
+    --paddingLR: 5px;
+    list-style: none;
+    display: inline;
+    padding-left: var(--paddingLR);
+    padding-right: var(--paddingLR);
+    cursor: pointer;
+}
+
+.socialMedia li:first-child{
+    padding-left: unset;
+}
+
+.copyright{
+    color: black;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+#body, #home, #aboutUs, #contactUs{
+    scroll-margin-top: 200px;
+}
+
+.nav li{
+    transition: all 0.3s;
+}
+
+.nav li:hover{
+    text-decoration: underline;
+    transition: all 0.6s;
+}
+
+.tableFirstColumnCompar{
+    width: 140px;
+}
+
+.tableLastColumnCompar{
+    padding: 15px;
+}
+
+.tableML{
+    writing-mode: vertical-lr;
+}
+
+.logoTextFooter{
+    text-decoration: none;
+    font-family: 'Voga';
+    font-size: 34px;
+    margin-top: 1px;
+}
+
+.headerFlexLogo{
+    margin-top: 15px;
+}
+
+.buyNowButton{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    top: 420px;
+    left: 350px;
+    color: white;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    border-radius: 2px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.buyNowButton:hover{
+    border: 1px solid white;
+    transition: all 0.6s;
+}
